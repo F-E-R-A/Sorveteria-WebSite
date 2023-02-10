@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import './style.css';
 
 
+
 const Header = () => {
     return( 
         <div className="header">
@@ -10,9 +11,9 @@ const Header = () => {
                 <img src="/assets/logo.png" alt="logo" title="Logo-Empresa"/>
             </div>
             <div className="div-navegation">
-                <Link to="/about">Sobre</Link>
-                <Link to="/products">Sobre</Link>
-                <Link to="/home">Sobre</Link>
+                <Link className="Links" to="/about">Sobre</Link>
+                <Link className="Links" to="/products">Produtos</Link>
+                <Link className="Links" to="/">Home</Link>
             </div>
         </div> 
     );

@@ -1,0 +1,38 @@
+.sabores{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-sabores, .block-eventos{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+.image-sabores, .image-eventos{
+    width: 50%;
+}
+.image-sabores img, .image-eventos img{
+    width: 100%;
+    height: 400px;
+}
+
+.text-sabores, .text-eventos{
+    width: calc(50% - 40px);
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-sabores{
+    border-top: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);
+}
+.text-eventos{
+    border-left: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}

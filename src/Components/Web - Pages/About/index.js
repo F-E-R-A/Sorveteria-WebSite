@@ -2,9 +2,9 @@ import React from 'react';
 import './style.css';
 
 const About = () => (
-    <div className="about">
-        <h1>Aqui é a seção Sobre</h1>
+    <div id="about" className="about">
+        <h2></h2>
     </div>
 );
 
-export default About;
+export default About; 

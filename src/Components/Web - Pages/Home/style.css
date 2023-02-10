@@ -1,0 +1,19 @@
+.capa-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(107, 107, 107);
+    box-shadow: 5px 5px 10px rgb(107, 107, 107);
+}
+.capa-home h1{
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+    font-weight: bold;
+}
