@@ -13,8 +13,11 @@ const Home = () => (
         <div className="capa-home">
             <h1>A GELATERIA</h1>
         </div>    
-        <div className="about">
+        <div className="products">
             <Products/>
+        </div>
+        <div className="about">
+            <About/>
         </div>
     </div>
 );

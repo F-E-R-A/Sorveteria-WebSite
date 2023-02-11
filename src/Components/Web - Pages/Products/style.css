@@ -1,5 +1,5 @@
 .sabores{
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,12 +15,20 @@
 .image-sabores, .image-eventos{
     width: 50%;
 }
+
+.image-sabores img{
+    border-radius: 20px 0 0 0;
+}
+.image-eventos img{
+    border-radius: 0 0 20px 0;
+}
 .image-sabores img, .image-eventos img{
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 
 .text-sabores, .text-eventos{
+    background-color: #ececec;
     width: calc(50% - 40px);
     padding: 0 20px;
     display: flex;
@@ -31,8 +39,93 @@
 .text-sabores{
     border-top: 1px solid rgb(209, 209, 209);
     border-right: 1px solid rgb(209, 209, 209);
+    border-radius: 0 20px 0 0;
 }
 .text-eventos{
     border-left: 1px solid rgb(209, 209, 209);
     border-bottom: 1px solid rgb(209, 209, 209);
+    border-radius: 0 0 0 20px;
+}
+
+.sorvetes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.sorv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+}
+
+.sobre-sorvete{
+    display: flex;
+    flex-direction: column;
+}
+.sobre-sorvete .descr-name{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.sobre-sorvete .descr-name .desc{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.sobre-sorvete .descr-name .desc p{
+    background-color: rgb(184, 184, 184);
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -1px;
+}
+.sobre-sorvete .descr-name .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+.sobre-sorvete .text-descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+
+.sorv #avela{
+    width: 330px;
+    height: 300px;
+}
+.sorv #oreo{
+    width: 370px;
+    height: 300px;
+    margin-left: -20px;
+}
+.sorv #pistache{
+    width: 320px;
+    height: 300px;
+    margin-left: 10px;
+}
+.sorv #morango{
+    width: 310px;
+    height: 290px;
+    margin-left: 20px;
+}
+.sorv #kiwi{
+    width: 450px;
+    height: 350px;
+    margin-left: -40px;
+}
+.sorv #limao{
+    width: 390px;
+    height: 360px;
+    margin-left: -10px;
 }
