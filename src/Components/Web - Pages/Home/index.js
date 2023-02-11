@@ -3,7 +3,8 @@ import './style.css';
 
 import Header from '../../Header/';
 import About from '../About/';
-import Products from '../Products/'
+import Products from '../Products/';
+import Footer from '../../Footer/';
 
 const Home = () => (
     <div id="home" className="home">
@@ -11,13 +12,16 @@ const Home = () => (
             <Header/>
         </div>
         <div className="capa-home">
-            <h1>A GELATERIA</h1>
+            <h1>Sorvete Artesanal</h1>
         </div>    
         <div className="products">
             <Products/>
         </div>
         <div className="about">
             <About/>
+        </div>
+        <div className="footer">
+            <Footer/>
         </div>
     </div>
 );

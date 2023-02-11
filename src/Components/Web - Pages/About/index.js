@@ -12,9 +12,9 @@ const About = () => (
             atendimento e o melhor sorvete da cidade.</p>
         </div>
         <div className="image-about">
-            <img src="/assets/sobre-image.jpg" alt="Ilustração_1" title="Amigos"/>
-            <img src="/assets/sorveteria.jpg" alt="Ilustração_2" title="Sorveteria"/>
-        </div>
+            <img id="amigos-image" src="/assets/sobre-image.jpg" alt="Ilustração_1" title="Amigos"/>
+            <img id="sorveteria-image" src="/assets/sorveteria.jpg" alt="Ilustração_2" title="Sorveteria"/>
+        </div> 
     </div>
 );
 

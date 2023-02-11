@@ -104,10 +104,28 @@
 .text-descr p{
     text-align: justify;
 }
+
 span{
     font-weight: bold;
 }
-
+#span-sabor-avela{
+    color:rgb(179, 119, 41)
+}
+#span-sabor-oreo{
+    color: rgb(129, 92, 81);
+}
+#span-sabor-pistachi{
+    color: rgb(155, 201, 87)
+}
+#span-sabor-morango{
+    color: rgb(255, 86, 86);
+}
+#span-sabor-kiwi{
+    color: rgb(96, 158, 3);
+}
+#span-sabor-limao{
+    color:rgb(185, 173, 1);
+}
 
 .image-sorvete{
     width: 400px;

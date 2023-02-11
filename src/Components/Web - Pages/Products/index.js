@@ -38,12 +38,12 @@ const Products = () => (
                     <img id="avela" src="/assets/sabor-cookies-avela.png" alt="Sabor Avela" Title="Sabor: Cookies-Avela"/>
                 </div>
                 <div className="sobre-sorvete">
-                    <div className="descr-name">
+                    <div className="descr-name"> 
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Cookies Avelã</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-avela">Cookies Avelã</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -62,7 +62,7 @@ const Products = () => (
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Oreo</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-oreo">Oreo</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -83,7 +83,7 @@ const Products = () => (
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Pistachi</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-pistachi">Pistachi</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -103,7 +103,7 @@ const Products = () => (
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Morango</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-morango">Morango</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -123,7 +123,7 @@ const Products = () => (
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Kiwi</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-kiwi">Kiwi</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -144,7 +144,7 @@ const Products = () => (
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p><span>Sabor:</span> Limão</p>
+                            <p><span>Sabor:</span> <span id="span-sabor-limao">Limão</span></p>
                         </div>
                     </div>
                     <div className="text-descr">
