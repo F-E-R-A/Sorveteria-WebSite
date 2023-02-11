@@ -34,14 +34,16 @@ const Products = () => (
         </div> 
         <div className="sorvetes">
             <div className="sorv">
-                <img id="avela" src="/assets/sabor-cookies-avela.png" alt="Sabor Avela" Title="Sabor: Cookies-Avela"/>
+                <div className="image-sorvete">
+                    <img id="avela" src="/assets/sabor-cookies-avela.png" alt="Sabor Avela" Title="Sabor: Cookies-Avela"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Cookies Avelã</p>
+                            <p><span>Sabor:</span> Cookies Avelã</p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -51,14 +53,16 @@ const Products = () => (
                 </div>
             </div>
             <div className="sorv">
-                <img id="oreo" src="/assets/sabor-oreo.png" alt="Sabor Oreo" Title="Sabor: Oreo"/>
+                <div className="image-sorvete">
+                    <img id="oreo" src="/assets/sabor-oreo.png" alt="Sabor Oreo" Title="Sabor: Oreo"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Oreo</p>
+                            <p><span>Sabor:</span> Oreo</p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -70,14 +74,16 @@ const Products = () => (
                 </div>
             </div>
             <div className="sorv">
-                <img id="pistache" src="/assets/sabor-pistache.png" alt="Sabor Pistache" Title="Sabor: Pistache"/>
+                <div className="image-sorvete">
+                    <img id="pistache" src="/assets/sabor-pistache.png" alt="Sabor Pistache" Title="Sabor: Pistache"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Pistachi</p>
+                            <p><span>Sabor:</span> Pistachi</p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -88,14 +94,16 @@ const Products = () => (
                 </div>
             </div>
             <div className="sorv">
-                <img id="morango" src="/assets/sorbet-morango.png" alt="Sabor Morango" Title="Sabor: Morango"/>
+                <div className="image-sorvete">
+                    <img id="morango" src="/assets/sorbet-morango.png" alt="Sabor Morango" Title="Sabor: Morango"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Morango</p>
+                            <p><span>Sabor:</span> Morango</p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -106,14 +114,16 @@ const Products = () => (
                 </div>
             </div>
             <div className="sorv">
-                <img id="kiwi" src="/assets/sorbet-kiwi.png" alt="Sabor Kiwi" Title="Sabor: Kiwi"/>
+                <div className="image-sorvete">
+                    <img id="kiwi" src="/assets/sorbet-kiwi.png" alt="Sabor Kiwi" Title="Sabor: Kiwi"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Kiwi</p>
+                            <p><span>Sabor:</span> Kiwi</p>
                         </div>
                     </div>
                     <div className="text-descr">
@@ -125,14 +135,16 @@ const Products = () => (
                 </div>
             </div>
             <div className="sorv">
-                <img id="limao" src="/assets/sorbet-limao.png" alt="Sabor Limão" Title="Sabor: Limão"/>
+                <div className="image-sorvete">
+                    <img id="limao" src="/assets/sorbet-limao.png" alt="Sabor Limão" Title="Sabor: Limão"/>
+                </div>
                 <div className="sobre-sorvete">
                     <div className="descr-name">
                         <div className="desc">
                             <p>Descrição</p>
                         </div>
                         <div className="name">
-                            <p>Sabor: Limão</p>
+                            <p><span>Sabor:</span> Limão</p>
                         </div>
                     </div>
                     <div className="text-descr">
