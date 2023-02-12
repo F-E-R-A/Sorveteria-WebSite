@@ -31,7 +31,7 @@ const Footer = () => (
         <div className="copyright">
             <p>© Gelateria. Orgulhosamente desenvolvido por @Marcos André.</p>
         </div>
-    </div>
+    </div> 
 );
 
 export default Footer; 

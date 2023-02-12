@@ -1,3 +1,55 @@
+.capa-home{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(107, 107, 107);
+    box-shadow: 5px 5px 10px rgb(107, 107, 107);
+}
+.capa-home h1{
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/*Style About*/
+.about{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-about{
+    text-align: center;
+    width: 1200px;
+}
+
+.image-about{
+    width: 1200px;
+    margin-top: 30px;
+}
+.image-about img{
+    height: 400px;
+    width: 50%;
+    box-shadow: 5px 5px 20px black;
+}
+
+#amigos-image{
+    border-radius: 20px 0 0 20px;
+}
+#sorveteria-image{
+    border-radius: 0 20px 20px 0;
+}
+
+
+/*Style products*/
 .sabores{
     margin-top: 150px;
     width: 100%;
@@ -35,6 +87,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: justify;
 }
 .text-sabores{
     border-top: 1px solid rgb(209, 209, 209);

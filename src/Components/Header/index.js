@@ -17,7 +17,7 @@ const Header = () => {
             <div className="div-navegation">
                 <Link className="Links" to="/about">Sobre</Link>
                 <Link className="Links" to="/products">Produtos</Link>
-                <Link className="Links" to="/">Home</Link>
+                <a className="Links" href="../Web-Pages/Home/#footer">Contato</a>
                 <Link id="user-icon" to=""><img src="/assets/carrinho-carrinho.png" alt="Carrinho" title="Carrinho"/></Link>
                 <Link id="cart" to=""><img src="/assets/profile-user.png" alt="Usuário" title="Usuário"/></Link>
             </div>
