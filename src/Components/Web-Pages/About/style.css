@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin: 50px 100px 0 100px;
+    margin: 50px 100px 100px 100px;
 }
 .description h2{
     font-size: 30px;

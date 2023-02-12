@@ -11,10 +11,12 @@ const Home = () => (
             <Header/>
         </div>
         <div id="home" className="capa-home">
-            <h1>Sorvete Artesanal</h1>
+            <h1>Sorveteria Art</h1>
+            <h2>Sorvetes Artesanais</h2>
         </div>    
         <div id="products" className="products">
             <div className='sabores'>
+                <h2 id="title-sabores">Conheça nossos Produtos</h2>
                 <div className="block-sabores">
                     <div className="image-sabores">
                         <img src="/assets/banner-sabores.jpg" alt="Image-Sabores" title="Sabores"/>

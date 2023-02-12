@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from '../Web-Pages/Home/';
 import Products from '../Web-Pages/Products/';
 import About from '../Web-Pages/About/';
-import Contact from '../Footer/';
+import Contact from '../Web-Pages/Contacts';
 
 const Rotas = () => (
     <BrowserRouter>

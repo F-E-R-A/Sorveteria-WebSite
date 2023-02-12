@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 
+import Header from '../Header/';
+
 const Footer = () => (
     <div className="footer">
         <div className="contatos">
