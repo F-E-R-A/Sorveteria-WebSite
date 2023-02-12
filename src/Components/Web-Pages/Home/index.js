@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {Link} from 'react-router-dom';
 
 import Header from '../../Header/';
 import Products from '../Products/';
@@ -62,6 +63,7 @@ const Home = () => (
                         <div className="text-descr">
                             <p>Nascido em berço esplêndido, educado e poliglota, o Avelã com Chocolate é um sabor globalizado 
                             que já virou esse mundo de ponta cabeça.</p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>
@@ -83,6 +85,7 @@ const Home = () => (
                             em 1912, ou seja, tem mais de 100 anos! Só que foi apenas nos anos 1970 que, nos Estados 
                             Unidos, começaram a surgir variedades com cobertura de chocolate e outras inovações. 
                             No Brasil, chegou nos anos 1980.</p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>
@@ -103,6 +106,7 @@ const Home = () => (
                             <p>A Sicília é a produtora dos melhores pistaches do mundo, e foi para lá que o Chef 
                             Oliver embarcou em busca de inspiração para a primeira série de gelatos especiais. 
                             A colheita do Pistacchio é bem peculiar acontecendo a cada dois anos.</p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>
@@ -123,6 +127,7 @@ const Home = () => (
                             <p>O morango é um fruto suculento, com sabor levemente ácido e aroma agradável e forte,
                             tendo a vantagem adicional de ser pouco calórico. Ele é rico em vitaminas C e B5; fibras, 
                             cálcio, ferro e também flavonoides.</p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>
@@ -144,6 +149,7 @@ const Home = () => (
                             ao contrário de outras frutas como tangerinas, bananas, abacaxis e melancias, que 
                             são cultivadas e consumidas há milhares de anos, o kiwi só foi introduzido na nossa 
                             dieta por volta de 1900.</p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>
@@ -164,6 +170,7 @@ const Home = () => (
                             <p>Sabor conhecido pela maioria dos brasileiros, o limão está presente em toda parte.
                             Sem dúvida é um dos melhores segundo pesquisas feitas. 
                             </p>
+                            <Link className="ver-mais" to="/products">Ver mais</Link>
                         </div>
                     </div>
                 </div>

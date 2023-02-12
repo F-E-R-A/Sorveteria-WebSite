@@ -22,6 +22,11 @@ const Products = () => (
                         <h2>Sorvete de Oreo</h2>
                         <p>Delicioso sorvete sabor Oreo. Uma expressão de sabor.</p>
                     </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
+                    </div>
                 </div>
                 <div className="card">
                     <div className="image-card">
@@ -30,6 +35,11 @@ const Products = () => (
                     <div className="text-card">
                         <h2>Sorvete de Pistache</h2>
                         <p>Cremoso sorvete sabor de Pistache com floquinhos de sementes.</p>
+                    </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
                     </div>
                 </div>
                 <div className="card">
@@ -40,6 +50,11 @@ const Products = () => (
                         <h2>Sorvete de Cookies Avelã</h2>
                         <p>O nosso melhor sorvete. Você vai adorar o sabor.</p>
                     </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
+                    </div>
                 </div>
                 <div className="card">
                     <div className="image-card">
@@ -49,14 +64,24 @@ const Products = () => (
                         <h2>Sorvete de Kiwi</h2>
                         <p>Delicioso e refrescante sorvete sabor Kiwi. Rico em vitamina C.</p>
                     </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
+                    </div>
                 </div>
                 <div className="card">
                     <div className="image-card">
                         <img src="/assets/sorbet-morango.png" alt="Sabor-Morango" Title="Sabor: Morango"/>
                     </div>
                     <div className="text-card">
-                        <h2>Sorvete de Morango</h2>
+                        <h2>Sorvete de Morango</h2> 
                         <p>Sorvete de Morango Gourmet. Tradicional e saboroso.</p>
+                    </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
                     </div>
                 </div>
                 <div className="card">
@@ -66,6 +91,11 @@ const Products = () => (
                     <div className="text-card">
                         <h2>Sorvete de Limão</h2>
                         <p>O incrível sorvete gourmet de Lomão siliano volta encantar.</p>
+                    </div>
+                    <div className="buttons">
+                        <a href="#">Sobre o produto</a>
+                        <button>Comprar agora</button>
+                        <button>Adicionar no carrinho</button>
                     </div>
                 </div>
             </div>
