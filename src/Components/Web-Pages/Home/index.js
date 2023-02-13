@@ -190,14 +190,14 @@ const Home = () => (
                 <img id="sorveteria-image" src="/assets/sorveteria.jpg" alt="Ilustração_2" title="Sorveteria"/>
             </div> 
         </div>
-        <div className="help">
+        <div className="help"> 
+            <div id="image-help">
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="/assets/help-desk.png" alt="Help" title="Help"/></a>
+            </div>    
             <div id="title-help">
                 <img src="/assets/whatsapp.png" alt="Icon-WhastApp" title="WhatsApp"/>
                 <p>Fale Conosco</p>
             </div>
-            <div id="image-help">
-                <a href="#"><img src="/assets/help-desk.png" alt="Help" title="Help"/></a>
-            </div>    
         </div>
         <div id="footer" className="footer">
             <Footer/> 

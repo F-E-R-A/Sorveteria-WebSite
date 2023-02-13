@@ -15,12 +15,19 @@ const Header = () => {
                 </div>
             </div>
             <div className="div-navegation">
-                <Link className="Links" to="/about">Sobre</Link>
-                <Link className="Links" to="/products">Produtos</Link>
-                <Link className="Links" to="/contact">Contato</Link>
-                <Link id="user-icon" to=""><img src="/assets/carrinho-carrinho.png" alt="Carrinho" title="Carrinho"/></Link>
-                <Link id="cart" to=""><img src="/assets/profile-user.png" alt="Usuário" title="Usuário"/></Link>
-            </div>
+                <div className="list-nav">
+                    <img src="/assets/Lista_icon.png" alt="Navegação" title="Navegação"/>
+                </div>
+                <div className="nav-links">
+                    <Link className="Links" to="/about">Sobre</Link>
+                    <Link className="Links" to="/products">Produtos</Link>
+                    <Link className="Links" to="/contact">Contato</Link>
+                </div>
+                <div className="user-cart">
+                    <Link id="cart" to=""><img src="/assets/carrinho-carrinho.png" alt="Carrinho" title="Carrinho"/></Link>
+                    <Link id="user-icon" to=""><img src="/assets/profile-user.png" alt="Usuário" title="Usuário"/></Link>
+                </div>
+            </div> 
         </div> 
     );
 };
