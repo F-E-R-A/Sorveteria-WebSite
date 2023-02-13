@@ -5,7 +5,7 @@ import './style.css';
 
 
 const Header = () => {
-    return( 
+    return(  
         <div className="header">
             <div className="div-logo">
                 <Link to='/'><img id="logo-empresa" src="/assets/logo.png" alt="logo" title="Logo-Empresa"/></Link>

@@ -241,3 +241,47 @@ span{
     height: 350px;
     margin-left: -30px;
 }
+
+
+.help{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.help img{
+    width: 70px;
+    height: 70px;
+}
+#title-help{
+    background-color: #9fd4fe;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0px 40px 0 40px;
+    height: 70px;
+}
+#title-help p{
+    font-size: 22px;
+}
+#title-help img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+#title-help{
+    display: none;
+}
+
+#image-help:hover + #title-help{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    
+}
