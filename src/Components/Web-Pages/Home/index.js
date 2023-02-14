@@ -14,7 +14,7 @@ const Home = () => (
         <div id="home" className="capa-home">
             <h1>Sorveteria Art</h1>
             <h2>Sorvetes Artesanais</h2>
-        </div>    
+        </div>     
         <div id="products" className="products">
             <div className='sabores'>
                 <h2 id="title-sabores">Conheça nossos Produtos</h2>
@@ -43,6 +43,34 @@ const Home = () => (
                     </div>
                     <div className="image-eventos">
                         <img src="/assets/eventos-image.jpg" alt="Image-Eventos" title="Eventos"/>
+                    </div>
+                </div>
+                {/*Layout para celulares (block-sabores e block-eventos)*/}
+                <div className="block-sabores-2">
+                    <div className="image-sabores">
+                        <img src="/assets/banner-sabores.jpg" alt="Image-Sabores" title="Sabores"/>
+                    </div>
+                    <div class="text-sabores">
+                        <h2>NOSSOS SABORES</h2>
+                        <p>Novos e Deliciosos!</p>
+                        <p>Sorvete bom é aquele feito com os melhores ingredientes! Aqui na Gelateria todos os nossos
+                        produtos são naturais, à base de frutas e sem nenhum conservante. Também temos opção sem 
+                        lactose e sem açucar. Venha conhecer e perceber que tem como o sorvete ser delicioso e 
+                        saudável ao mesmo tempo!
+                        </p>
+                    </div>
+                </div>
+                <div className="block-eventos-2">
+                    <div className="image-eventos">
+                        <img src="/assets/eventos-image.jpg" alt="Image-Eventos" title="Eventos"/>
+                    </div>
+                    <div className="text-eventos">
+                        <h2>NOSSOS EVENTOS</h2>
+                        <p>Delicias com sorvete!</p>
+                        <p>Mais do que uma sorveteria, uma extensão da sua vida. Estamos aqui prontinhos para tem
+                        atender e oferecer os melhores eventos com os melhores sorvetes da sua vida! Venha conhecer 
+                        nossos produtos e passar um tempo aqui com a gente. 
+                        </p>
                     </div>
                 </div>
             </div> 

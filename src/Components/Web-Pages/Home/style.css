@@ -1,289 +1,591 @@
-.capa-home{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 10px;
-    border-bottom: 3px solid rgb(107, 107, 107);
-    box-shadow: 5px 5px 10px rgb(107, 107, 107);
-}
-.capa-home h1{
-    color: white;
-    font-size: 80px;
-    font-family: cursive;
-    font-weight: bold;
-    line-height: 0px;
-    text-shadow: 2px 2px 5px;
-}
-.capa-home h2{
-    color: #ffffff;
-    font-family: cursive;
-    line-height: 0px;
-    font-size: 25px;
-    text-shadow: 1px 1px 2px;
-}
+@media screen and (min-width: 768px){
+    .capa-home{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgb(107, 107, 107);
+        box-shadow: 5px 5px 10px rgb(107, 107, 107);
+    }
+    .capa-home h1{
+        color: white;
+        font-size: 80px;
+        font-family: cursive;
+        font-weight: bold;
+        line-height: 0px;
+        text-shadow: 2px 2px 5px;
+    }
+    .capa-home h2{
+        color: #ffffff;
+        font-family: cursive;
+        line-height: 0px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px;
+    }
 
-/*Style About*/
-.about{
-    margin-top: 30px;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    /*Style About*/
+    .about{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.text-about{
-    text-align: center;
-    width: 1200px;
-}
-.text-about h2{
-    text-shadow: 1px 1px 5px rgb(107, 107, 107);
-}
+    .text-about{
+        text-align: center;
+        width: 1200px;
+    }
+    .text-about h2{
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
 
-.image-about{
-    width: 1200px;
-    margin-top: 30px;
-}
-.image-about img{
-    height: 400px;
-    width: 50%;
-    box-shadow: 5px 5px 20px black;
-}
+    .image-about{
+        width: 1200px;
+        margin-top: 30px;
+    }
+    .image-about img{
+        height: 400px;
+        width: 50%;
+        box-shadow: 5px 5px 20px black;
+    }
 
-#amigos-image{
-    border-radius: 20px 0 0 20px;
-}
-#sorveteria-image{
-    border-radius: 0 20px 20px 0;
-}
-
-
-/*Style products*/
-.sabores{
-    margin-top: 150px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.sabores #title-sabores{
-    font-size: 30px;
-    text-shadow: 1px 1px 5px rgb(107, 107, 107);
-}
-
-.block-sabores, .block-eventos{
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-}
-
-.image-sabores, .image-eventos{
-    width: 50%;
-}
-
-.image-sabores img{
-    border-radius: 20px 0 0 0;
-}
-.image-eventos img{
-    border-radius: 0 0 20px 0;
-}
-.image-sabores img, .image-eventos img{
-    width: 100%;
-    height: 100%;
-}
-
-.text-sabores, .text-eventos{
-    background-color: #f8f8f8;
-    width: calc(50% - 40px);
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: justify;
-}
-.text-sabores{
-    border-top: 1px solid rgb(209, 209, 209);
-    border-right: 1px solid rgb(209, 209, 209);
-    border-radius: 0 20px 0 0;
-}
-.text-eventos{
-    border-left: 1px solid rgb(209, 209, 209);
-    border-bottom: 1px solid rgb(209, 209, 209);
-    border-radius: 0 0 0 20px;
-}
-
-.sorvetes{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-}
-
-.sorv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 1200px;
-}
-
-.sobre-sorvete{
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-}
-.sobre-sorvete .descr-name{
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid rgb(173, 173, 173);
-}
-.sobre-sorvete .descr-name .desc{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-.sobre-sorvete .descr-name .desc p{
-    background-color: rgb(184, 184, 184);
-    font-weight: 500;
-    padding: 15px 20px;
-    border-radius: 10px 10px 0 0;
-    margin-bottom: -1px;
-}
-.sobre-sorvete .descr-name .name{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-}
-.sobre-sorvete .descr-name .name p{
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.sobre-sorvete .text-descr{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
-.text-descr p{
-    text-align: justify;
-}
-.text-descr .ver-mais{
-    background-color:rgb(255, 179, 16);
-    text-decoration: none;
-    width: 110px;
-    text-align: center;
-    padding: 8px 0px;
-    border-radius: 0 20px 20px 20px;
-    color: white;
-    font-size: 17px;
-}
-
-span{
-    font-weight: bold;
-}
-#span-sabor-avela{
-    color:rgb(179, 119, 41)
-}
-#span-sabor-oreo{
-    color: rgb(129, 92, 81);
-}
-#span-sabor-pistachi{
-    color: rgb(155, 201, 87)
-}
-#span-sabor-morango{
-    color: rgb(255, 86, 86);
-}
-#span-sabor-kiwi{
-    color: rgb(96, 158, 3);
-}
-#span-sabor-limao{
-    color:rgb(185, 173, 1);
-}
-
-.image-sorvete{
-    width: 400px;
-}
-
-.image-sorvete #avela{
-    width: 330px;
-    height: 300px;
-    margin-left: -20px;
-}
-.image-sorvete #oreo{
-    width: 370px;
-    height: 300px;
-    margin-left: -40px;
-}
-.image-sorvete #pistache{
-    width: 320px;
-    height: 300px;
-    margin-left: -10px;
-}
-.image-sorvete #morango{
-    width: 310px;
-    height: 290px;
-    margin-left: 10px;
-}
-.image-sorvete #kiwi{
-    width: 450px;
-    height: 350px;
-    margin-left: -60px;
-}
-.image-sorvete #limao{
-    width: 400px;
-    height: 350px;
-    margin-left: -30px;
-}
+    #amigos-image{
+        border-radius: 20px 0 0 20px;
+    }
+    #sorveteria-image{
+        border-radius: 0 20px 20px 0;
+    }
 
 
-.help{
-    display: flex;
-    flex-direction: row-reverse;
-    position: fixed;
-    right: 30px;
-    bottom: 50px;
-}
-.help img{
-    width: 70px;
-    height: 70px;
-}
-#title-help{
-    background-color: #9fd4fe;
-    color: #414a7e;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 0px 40px 0 40px;
-    height: 70px;
-}
-#title-help p{
-    font-size: 18px;
-}
-#title-help img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    /*Style products*/
+    .sabores{
+        margin-top: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sabores #title-sabores{
+        font-size: 30px;
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
+
+    .block-sabores, .block-eventos{
+        display: flex;
+        flex-direction: row;
+        width: 1200px;
+    }
+    /*Layout para ceulares ocultado nessa Query*/
+    .block-sabores-2, .block-eventos-2{
+        display: none;
+    }
+
+    .image-sabores, .image-eventos{
+        width: 50%;
+    }
+
+    .image-sabores img{
+        border-radius: 20px 0 0 0;
+    }
+    .image-eventos img{
+        border-radius: 0 0 20px 0;
+    }
+    .image-sabores img, .image-eventos img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text-sabores, .text-eventos{
+        background-color: #f8f8f8;
+        width: calc(50% - 40px);
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    .text-sabores{
+        border-top: 1px solid rgb(209, 209, 209);
+        border-right: 1px solid rgb(209, 209, 209);
+        border-radius: 0 20px 0 0;
+    }
+    .text-eventos{
+        border-left: 1px solid rgb(209, 209, 209);
+        border-bottom: 1px solid rgb(209, 209, 209);
+        border-radius: 0 0 0 20px;
+    }
+
+    .sorvetes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .sorv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1200px;
+    }
+
+    .sobre-sorvete{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+    .sobre-sorvete .descr-name{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .sobre-sorvete .descr-name .desc{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .sobre-sorvete .descr-name .desc p{
+        background-color: rgb(184, 184, 184);
+        font-weight: 500;
+        padding: 15px 20px;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: -1px;
+    }
+    .sobre-sorvete .descr-name .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .sobre-sorvete .descr-name .name p{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .sobre-sorvete .text-descr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text-descr p{
+        text-align: justify;
+    }
+    .text-descr .ver-mais{
+        background-color:rgb(255, 179, 16);
+        text-decoration: none;
+        width: 110px;
+        text-align: center;
+        padding: 8px 0px;
+        border-radius: 0 20px 20px 20px;
+        color: white;
+        font-size: 17px;
+    }
+
+    span{
+        font-weight: bold;
+    }
+    #span-sabor-avela{
+        color:rgb(179, 119, 41)
+    }
+    #span-sabor-oreo{
+        color: rgb(129, 92, 81);
+    }
+    #span-sabor-pistachi{
+        color: rgb(155, 201, 87)
+    }
+    #span-sabor-morango{
+        color: rgb(255, 86, 86);
+    }
+    #span-sabor-kiwi{
+        color: rgb(96, 158, 3);
+    }
+    #span-sabor-limao{
+        color:rgb(185, 173, 1);
+    }
+
+    .image-sorvete{
+        width: 400px;
+    }
+
+    .image-sorvete #avela{
+        width: 330px;
+        height: 300px;
+        margin-left: -20px;
+    }
+    .image-sorvete #oreo{
+        width: 370px;
+        height: 300px;
+        margin-left: -40px;
+    }
+    .image-sorvete #pistache{
+        width: 320px;
+        height: 300px;
+        margin-left: -10px;
+    }
+    .image-sorvete #morango{
+        width: 310px;
+        height: 290px;
+        margin-left: 10px;
+    }
+    .image-sorvete #kiwi{
+        width: 450px;
+        height: 350px;
+        margin-left: -60px;
+    }
+    .image-sorvete #limao{
+        width: 400px;
+        height: 350px;
+        margin-left: -30px;
+    }
+
+
+    .help{
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        right: 30px;
+        bottom: 50px;
+    }
+    .help img{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        background-color: #9fd4fe;
+        color: #414a7e;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 0px 40px 0 40px;
+        height: 70px;
+    }
+    #title-help p{
+        font-size: 18px;
+    }
+    #title-help img{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    #image-help{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        display: none;
+        
+    }
+
+    #image-help:hover + #title-help{
+        display: flex;
+    }
 }
 
-#image-help{
-    width: 70px;
-    height: 70px;
-}
-#title-help{
-    display: none;
-    
-}
+@media screen and (max-width: 767px){
+    .capa-home{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgb(107, 107, 107);
+        box-shadow: 5px 5px 10px rgb(107, 107, 107);
+    }
+    .capa-home h1{
+        color: white;
+        font-size: 60px;
+        font-family: cursive;
+        font-weight: bold;
+        line-height: 0px;
+        text-shadow: 2px 2px 5px;
+    }
+    .capa-home h2{
+        color: #ffffff;
+        font-family: cursive;
+        line-height: 0px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px;
+    }
 
-#image-help:hover + #title-help{
-    display: flex;
+    /*Style About*/
+    .about{
+        margin-top: 30px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-about{
+        text-align: center;
+        width: 1200px;
+    }
+    .text-about h2{
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
+
+    .image-about{
+        width: 1200px;
+        margin-top: 30px;
+    }
+    .image-about img{
+        height: 400px;
+        width: 50%;
+        box-shadow: 5px 5px 20px black;
+    }
+
+    #amigos-image{
+        border-radius: 20px 0 0 20px;
+    }
+    #sorveteria-image{
+        border-radius: 0 20px 20px 0;
+    }
+
+
+    /*Style products*/
+    .sabores{
+        margin-top: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sabores #title-sabores{
+        font-size: 25px;
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
+
+    /*Layout para desktop ocultado nessa Query.*/
+    .block-sabores, .block-eventos{
+        display: none;
+        /*background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        width: 85vw;*/
+    }
+    .block-sabores-2, .block-eventos-2{
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+    }
+
+    .image-sabores, .image-eventos{
+        width: 100%;
+        height: 300px;
+    }
+
+    .image-sabores img, .image-eventos img{
+        width: 100%;
+        height: 100%;
+    }
+    .image-sabores img{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .text-sabores, .text-eventos{
+        background-color: #f8f8f8;
+        width: calc(100% - 20px);
+        height: 300px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .text-sabores h2, .text-eventos h2{
+        font-size: 18px;
+    }
+    .text-eventos{
+        border-radius: 0 0 20px 20px;
+    }
+
+    .sorvetes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .sorv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 1200px;
+    }
+
+    .sobre-sorvete{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+    .sobre-sorvete .descr-name{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .sobre-sorvete .descr-name .desc{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .sobre-sorvete .descr-name .desc p{
+        background-color: rgb(184, 184, 184);
+        font-weight: 500;
+        padding: 15px 20px;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: -1px;
+    }
+    .sobre-sorvete .descr-name .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .sobre-sorvete .descr-name .name p{
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .sobre-sorvete .text-descr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text-descr p{
+        text-align: justify;
+    }
+    .text-descr .ver-mais{
+        background-color:rgb(255, 179, 16);
+        text-decoration: none;
+        width: 110px;
+        text-align: center;
+        padding: 8px 0px;
+        border-radius: 0 20px 20px 20px;
+        color: white;
+        font-size: 17px;
+    }
+
+    span{
+        font-weight: bold;
+    }
+    #span-sabor-avela{
+        color:rgb(179, 119, 41)
+    }
+    #span-sabor-oreo{
+        color: rgb(129, 92, 81);
+    }
+    #span-sabor-pistachi{
+        color: rgb(155, 201, 87)
+    }
+    #span-sabor-morango{
+        color: rgb(255, 86, 86);
+    }
+    #span-sabor-kiwi{
+        color: rgb(96, 158, 3);
+    }
+    #span-sabor-limao{
+        color:rgb(185, 173, 1);
+    }
+
+    .image-sorvete{
+        width: 400px;
+    }
+
+    .image-sorvete #avela{
+        width: 330px;
+        height: 300px;
+        margin-left: -20px;
+    }
+    .image-sorvete #oreo{
+        width: 370px;
+        height: 300px;
+        margin-left: -40px;
+    }
+    .image-sorvete #pistache{
+        width: 320px;
+        height: 300px;
+        margin-left: -10px;
+    }
+    .image-sorvete #morango{
+        width: 310px;
+        height: 290px;
+        margin-left: 10px;
+    }
+    .image-sorvete #kiwi{
+        width: 450px;
+        height: 350px;
+        margin-left: -60px;
+    }
+    .image-sorvete #limao{
+        width: 400px;
+        height: 350px;
+        margin-left: -30px;
+    }
+
+
+    .help{
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        right: 30px;
+        bottom: 50px;
+    }
+    .help img{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        background-color: #9fd4fe;
+        color: #414a7e;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 0px 40px 0 40px;
+        height: 70px;
+    }
+    #title-help p{
+        font-size: 18px;
+    }
+    #title-help img{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    #image-help{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        display: none;
+        
+    }
+
+    #image-help:hover + #title-help{
+        display: flex;
+    }
 }
