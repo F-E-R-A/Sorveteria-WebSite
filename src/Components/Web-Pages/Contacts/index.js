@@ -10,6 +10,9 @@ const Contacts = () => (
             <Header/>
         </div>
         <div className="contacts">
+            <div className="title-redes-sociais">
+                <h2>Siga nossas Redes Sociais</h2>
+            </div>
             <div className="image-redes">
                 <img src="/assets/redes.png" alt="Image-Redes" title="Redes Sociais"/>
             </div>
@@ -38,7 +41,7 @@ const Contacts = () => (
                     <p><a href="#">sorveteria.art@sorbet.com</a></p>
                     <p>Em caso de dúvidas, envie-nos um e-mail detalhado para analisarmos.</p>
                 </div>
-            </div>
+            </div> 
         </div>
         <div className="footer">
             <Footer/>

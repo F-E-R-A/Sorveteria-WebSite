@@ -28,7 +28,7 @@ const About = () => (
                        com o melhor sorvete da cidade.</p>
                 </div>
             </section>
-        </main>
+        </main> 
         <footer className="footer">
             <Footer/>
         </footer> 

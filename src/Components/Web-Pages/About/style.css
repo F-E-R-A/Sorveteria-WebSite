@@ -1,32 +1,69 @@
-.main{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../../../public/assets/sorveteria.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-}
-.main h1{
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 70px;
-    text-shadow: 1px 1px 5px;
+@media screen and (min-width: 768px){
+    .main{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../../../public/assets/sorveteria.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    .main h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 70px;
+        text-shadow: 1px 1px 5px;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin: 50px 100px 100px 100px;
+    }
+    .description h2{
+        font-size: 30px;
+    }
+    .description p:first-of-type{
+        font-size: 20px;
+    }
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    margin: 50px 100px 100px 100px;
-}
-.description h2{
-    font-size: 30px;
-}
-.description p:first-of-type{
-    font-size: 20px;
+@media screen and (max-width: 767px){
+    .main{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../../../public/assets/sorveteria.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    .main h1{
+        font-family: cursive;
+        font-weight: bold;
+        font-size: 70px;
+        text-shadow: 1px 1px 5px;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        margin: 50px 8vw;
+    }
+    .description h2{
+        font-size: 30px;
+    }
+    .description p:first-of-type{
+        font-size: 20px;
+    }
 }

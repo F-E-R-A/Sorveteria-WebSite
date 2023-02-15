@@ -8,7 +8,7 @@ const Footer = () => (
         <div className="contatos">
             <div className="logo">
                 <img src="/assets/logo.png" alt="Logo-Empresa" title="Logo-Empresa"/>
-            </div>
+            </div> 
             <div className="endereco">
                 <h3>ENDEREÇO</h3>
                 <p>Av. Bernardino de Campo, 98</p>

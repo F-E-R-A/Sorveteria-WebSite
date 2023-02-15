@@ -1,57 +1,130 @@
-.footer{
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-}
-.footer p, .footer h3{
-    color: #ffffff;
-}
+@media screen and (min-width: 768px){
+    .footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer p, .footer h3{
+        color: #ffffff;
+    }
 
 
 
-.contatos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    padding-top: 50px;
-}
-.contatos .logo img{
-    width: 150px;
-    height: 150px;
+    .contatos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .contatos .logo img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .iframe-map{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .iframe-map iframe{
+        width: 100%;
+        height: 300px;
+    }
+
+    .copyright{
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .endereco h3::before{
+        content: url("../../../public/assets/localizacao.png");
+        vertical-align: -30%;
+        padding-right: 5px;
+    }
+    .contato h3::before{
+        content: url("../../../public/assets/telephone.png");
+        padding-right: 10px;
+        vertical-align: -30%;
+    }
+    .horarios h3::before{
+        content: url("../../../public/assets/relogio.png");
+        padding-right: 10px;
+        vertical-align: -30%;
+
+    }
 }
 
-.iframe-map{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin-top: 70px;
-}
-.iframe-map iframe{
-    width: 100%;
-    height: 300px;
-}
+@media screen and (max-width: 767px){
+    .footer{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer p, .footer h3{
+        color: #ffffff;
+    }
 
-.copyright{
-    margin-top: 80px;
-    text-align: center;
-}
+    .contatos{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .contatos .logo img{
+        width: 150px;
+        height: 150px;
+    }
 
-.endereco h3::before{
-    content: url("../../../public/assets/localizacao.png");
-    vertical-align: -30%;
-    padding-right: 5px;
-}
-.contato h3::before{
-    content: url("../../../public/assets/telephone.png");
-    padding-right: 10px;
-    vertical-align: -30%;
-}
-.horarios h3::before{
-    content: url("../../../public/assets/relogio.png");
-    padding-right: 10px;
-    vertical-align: -30%;
+    .iframe-map{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .iframe-map iframe{
+        width: 100%;
+        height: 300px;
+    }
 
+    .logo, .endereco, .contato, .horarios{
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .endereco h3::before{
+        content: url("../../../public/assets/localizacao.png");
+        vertical-align: -30%;
+        padding-right: 5px;
+    }
+    .contato h3::before{
+        content: url("../../../public/assets/telephone.png");
+        padding-right: 10px;
+        vertical-align: -30%;
+    }
+    .horarios h3::before{
+        content: url("../../../public/assets/relogio.png");
+        padding-right: 10px;
+        vertical-align: -30%;
+
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin-top: 80px;
+        margin: 80px 20px 20px 20px;
+        width: calc(100% - 40px);
+        
+    }
 }
