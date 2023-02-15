@@ -627,14 +627,14 @@
 
     .text-about{
         text-align: center;
-        width: 1200px;
+        width: 85vw;
     }
     .text-about h2{
         text-shadow: 1px 1px 5px rgb(107, 107, 107);
     }
 
     .image-about{
-        width: 1200px;
+        width: 85vw;
         margin-top: 30px;
     }
     .image-about img{
@@ -757,7 +757,7 @@
     }
     .sobre-sorvete .descr-name .name p{
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 15px;
     }
     .sobre-sorvete .text-descr{
         display: flex;
@@ -815,6 +815,310 @@
         width: 290px;
         height: 260px;
         margin-left: -30px;
+    }
+    .image-sorvete #oreo{
+        width: 260px;
+        height: 260px;
+    }
+    .image-sorvete #pistache{
+        width: 260px;
+        height: 260px;
+    }
+    .image-sorvete #morango{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .image-sorvete #kiwi{
+        width: 260px;
+        height: 310px;
+    }
+    .image-sorvete #limao{
+        width: 260px;
+        height: 310px;
+    }
+
+
+    .help{
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed;
+        right: 30px;
+        bottom: 50px;
+    }
+    .help img{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        background-color: #9fd4fe;
+        color: #414a7e;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 0px 40px 0 40px;
+        height: 70px;
+    }
+    #title-help p{
+        font-size: 18px;
+    }
+    #title-help img{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    #image-help{
+        width: 70px;
+        height: 70px;
+    }
+    #title-help{
+        display: none;
+        
+    }
+
+    #image-help:hover + #title-help{
+        display: flex;
+    }
+}
+
+
+/*Layout para celulares*/
+@media screen and (max-width: 480px) and (min-height: 768px){
+    .capa-home{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../../../public/assets/banner-sobre.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgb(107, 107, 107);
+        box-shadow: 5px 5px 10px rgb(107, 107, 107);
+    }
+    .capa-home h1{
+        color: white;
+        font-size: 60px;
+        font-family: cursive;
+        font-weight: bold;
+        line-height: 0px;
+        text-shadow: 2px 2px 5px;
+    }
+    .capa-home h2{
+        color: #ffffff;
+        font-family: cursive;
+        line-height: 0px;
+        font-size: 25px;
+        text-shadow: 1px 1px 2px;
+    }
+
+    /*Style About*/
+    .about{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-about{
+        text-align: justify;
+        width: 85vw;
+    }
+    .text-about h2{
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
+
+    .image-about{
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+    }
+    .image-about img{
+        height: 300px;
+        width: 100%;
+        box-shadow: 5px 5px 20px black;
+    }
+
+    #amigos-image{
+        border-radius: 20px 20px 0 0;
+    }
+    #sorveteria-image{
+        border-radius: 0 0 20px 20px;
+        margin-top: 3px;
+    }
+
+
+    /*Style products*/
+    .sabores{
+        margin-top: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sabores #title-sabores{
+        font-size: 25px;
+        text-shadow: 1px 1px 5px rgb(107, 107, 107);
+    }
+
+    /*Layout para desktop ocultado nessa Query.*/
+    .block-sabores, .block-eventos{
+        display: none;
+        /*background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        width: 85vw;*/
+    }
+    .block-sabores-2, .block-eventos-2{
+        display: flex;
+        flex-direction: column;
+        width: 85vw;
+    }
+
+    .image-sabores, .image-eventos{
+        width: 100%;
+        height: 350px;
+    }
+
+    .image-sabores img, .image-eventos img{
+        width: 100%;
+        height: 100%;
+    }
+    .image-sabores img{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .text-sabores, .text-eventos{
+        background-color: #f8f8f8;
+        width: calc(100% - 20px);
+        height: 350px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        border-right: 1px solid rgb(167, 167, 167); 
+        border-left: 1px solid rgb(167, 167, 167);
+    }
+
+    .text-sabores h2, .text-eventos h2{
+        font-size: 18px;
+    }
+    .text-eventos{
+        border-radius: 0 0 20px 20px;
+    }
+
+    .sorvetes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .sorv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .sobre-sorvete{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-top: -50px;
+    }
+    .sobre-sorvete .descr-name{
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgb(173, 173, 173);
+    }
+    .sobre-sorvete .descr-name .desc{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    .sobre-sorvete .descr-name .desc p{
+        background-color: rgb(184, 184, 184);
+        font-weight: 500;
+        padding: 15px 20px;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: -1px;
+    }
+    .sobre-sorvete .descr-name .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .sobre-sorvete .descr-name .name p{
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .sobre-sorvete .text-descr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .text-descr p{
+        text-align: justify;
+    }
+    .text-descr .ver-mais{
+        background-color:rgb(255, 179, 16);
+        text-decoration: none;
+        width: 110px;
+        text-align: center;
+        padding: 8px 0px;
+        border-radius: 0 20px 20px 20px;
+        color: white;
+        font-size: 17px;
+    }
+
+     
+    span{
+        font-weight: bold;
+    }
+    #span-sabor-avela{
+        color:rgb(179, 119, 41)
+    }
+    #span-sabor-oreo{
+        color: rgb(129, 92, 81);
+    }
+    #span-sabor-pistachi{
+        color: rgb(155, 201, 87)
+    }
+    #span-sabor-morango{
+        color: rgb(255, 86, 86);
+    }
+    #span-sabor-kiwi{
+        color: rgb(96, 158, 3);
+    }
+    #span-sabor-limao{
+        color:rgb(185, 173, 1);
+    }
+
+    .image-sorvete{
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .image-sorvete #avela{
+        width: 290px;
+        height: 260px;
     }
     .image-sorvete #oreo{
         width: 260px;

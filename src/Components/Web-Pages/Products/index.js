@@ -9,7 +9,7 @@ const Products = () => (
         <header>
             <Header/>
         </header>
-        <main>
+        <main> 
             <div className="title-sabores">
                 <h1>Nossos Sabores</h1>
             </div>

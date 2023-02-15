@@ -9,7 +9,7 @@ const Contacts = () => (
         <div className="Header">
             <Header/>
         </div>
-        <div className="contacts">
+        <div className="contacts"> 
             <div className="title-redes-sociais">
                 <h2>Siga nossas Redes Sociais</h2>
             </div>

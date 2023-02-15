@@ -14,7 +14,7 @@ const Home = () => (
         <div id="home" className="capa-home">
             <h1>Sorveteria Art</h1>
             <h2>Sorvetes Artesanais</h2>
-        </div>     
+        </div>      
         <div id="products" className="products">
             <div className='sabores'>
                 <h2 id="title-sabores">Conheça nossos Produtos</h2>

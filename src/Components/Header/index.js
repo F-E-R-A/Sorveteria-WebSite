@@ -6,7 +6,7 @@ import './style.css';
 
 const Header = () => {
     return(  
-        <div className="header">
+        <div className="header"> 
             <div className="div-logo">
                 <Link to='/'><img id="logo-empresa" src="/assets/logo.png" alt="logo" title="Logo-Empresa"/></Link>
                 <div className="input-search">
@@ -16,7 +16,7 @@ const Header = () => {
             </div>
             <div className="div-navegation">
                 <div className="list-nav">
-                    <img src="/assets/Lista_icon.png" alt="Navegação" title="Navegação"/>
+                    <a href="#"><img src="/assets/Lista_icon.png" alt="Navegação" title="Navegação"/></a>
                 </div>
                 <div className="nav-links">
                     <Link className="Links" to="/about">Sobre</Link>
